@@ -39,22 +39,28 @@ DQ performed the worst in this dataset. They had the least return and the total 
 
 <img src="Resources/VBA_Challenge_2018.png" width="300">
 
-**Performance of Refactored Code**
+## Performance of Refactored Code
+
 The timestamp is represented in the format hh:mm:ss.
 
- **Original Code**
- The original code ran for 19:42:56 seconds for the year 2017.
+**Original Code**
+
+The <a href="Module/green_stocks.xlsm">original code</a> ran for 19:42:56 seconds for the year 2017.
 
 <img src="Resources/Original_Timestamp.png" width="500">
 
 **Refactored Code**
-The refactored code ran for 00:00:00 seconds for the year 2017.
+
+The <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds for the year 2017.
 
 <img src="Resources/Refactored_Timestamp.png" width="500">
 
 ### Summary
 **What are the advantages or disadvantages of refactoring code?**
 
+The advantages of refactoring the code was that the time required to run the code is significnatly decreased. The time to run the refactored code is 0 seconds, in comparison to the 19 hours. 
+
+The disadvantages to the refactored code is 
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
