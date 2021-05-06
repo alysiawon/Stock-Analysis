@@ -23,7 +23,7 @@ The data preparation includes refactoring the original VBA script by reorganizin
 
 DQ performed the best in this dataset. They had the highest return with 199.4% but the least total daily volume. 
 
-<img src="Resources/VBA_Challenge_2017.png" width="500">
+<img src="Resources/VBA_Challenge_2017.png" width="300">
 
 ## Analysis and Results of 2018 Stocks
 
@@ -37,34 +37,24 @@ DQ performed the best in this dataset. They had the highest return with 199.4% b
 
 DQ performed the worst in this dataset. They had the least return and the total daily volume is less than average. 
 
-<img src="Resources/VBA_Challenge_2018.png" width="500">
+<img src="Resources/VBA_Challenge_2018.png" width="300">
 
 **Performance of Refactored Code**
+The timestamp is represented in the format hh:mm:ss.
 
-After refactoring the code, 
+ **Original Code**
+ The original code ran for 19:42:56 seconds for the year 2017.
 
 <img src="Resources/Original_Timestamp.png" width="500">
+
+**Refactored Code**
+The refactored code ran for 00:00:00 seconds for the year 2017.
+
 <img src="Resources/Refactored_Timestamp.png" width="500">
 
+### Summary
+**What are the advantages or disadvantages of refactoring code?**
 
-**What are some limitations of this dataset?**
 
-This dataset does not specify how the data was collected. As a result, the data collected from different sources can vary in quality and format. 
+**How do these pros and cons apply to refactoring the original VBA script?**
 
-The dataset can also have bias, including under-represented populations, misinterpretation of the data, and cognitive bias just to name a few. 
-
-**What are some other possible tables and/or graphs that we could create?**
-
-With this dataset, here are 2 examples of tables and/or graphs that we could create: 
-
-1. *Average time frame of campaigns based on outcomes*
-
-	Do certain time frames (longer or shorter kickstarters) lead to more success or failure? With this table and graph, we could see if there is a correlation of how long a campaign was live and its correlation to its success rate. 
-
-	We could filter it even more to see if this differs based on locations, parent categories or sub-categories. 
-
-2. *Average donations of campaigns based on location and/or parent category*
-
-	Do locations and/or parent categories impact the average donation amount? With this table or graph, we could determine if certain locations or parent categories have a higher or lower average donation amount.
-
-	We could also determine if an average donation amount per location or parent category is correlated to a certain outcome. 
