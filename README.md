@@ -9,9 +9,9 @@ The purpose of this analysis is to compare the total daily volume and yearly ret
 
 The data preparation includes refactoring the original VBA script by reorganizing arrays, for loops, and if-then statements. This helped to convert the data into a more efficient format and run faster. Insight are generated on the <a href="VBA_Challenge.xlsm">VBA Analysis spreadsheet</a>.
 
-### Results
+## Results
 
-## Analysis and Results of 2017 Stocks
+### Analysis and Results of 2017 Stocks
 
 **Analysis**
 
@@ -25,7 +25,7 @@ DQ performed the best in this dataset. They had the highest return with 199.4% b
 
 <img src="Resources/VBA_Challenge_2017.png" width="300">
 
-## Analysis and Results of 2018 Stocks
+### Analysis and Results of 2018 Stocks
 
 **Analysis**
 
@@ -39,7 +39,7 @@ DQ performed the worst in this dataset. They had the least return and the total 
 
 <img src="Resources/VBA_Challenge_2018.png" width="300">
 
-## Performance of Refactored Code
+### Performance of Refactored Code
 
 The timestamp is represented in the format hh:mm:ss.
 
@@ -55,7 +55,7 @@ The <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds fo
 
 <img src="Resources/Refactored_Timestamp.png" width="500">
 
-### Summary
+## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
 The advantages of refactoring the code was that the time required to run the code is significnatly decreased. The time to run the refactored code is 0 seconds, in comparison to the 19 hours. 
