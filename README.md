@@ -7,37 +7,45 @@ The purpose of this analysis is to compare the total daily volume and yearly ret
 
 ## Analysis and Challenges
 
-The data preparation includes refactoring the original VBA script to run faster including, reorganizing arrays, for loops, and if-then statements. This helped to convert the data into a more efficient format and run faster. Insight are generated on the <a href="VBA_Challenge.xlsm">Kickstarter Analysis spreadsheet</a>.
+The data preparation includes refactoring the original VBA script by reorganizing arrays, for loops, and if-then statements. This helped to convert the data into a more efficient format and run faster. Insight are generated on the <a href="VBA_Challenge.xlsm">VBA Analysis spreadsheet</a>.
 
-### Analysis of 2017 Stocks
+### Results
 
-In the first analysis, we are comparing the monthly launch dates of theatre kickstarter campaigns. By utilizing the Pivot Table and graphing functions, I was able to visualize campaign outcomes (successful, failed, and canceled) based on launch dates. 
+## Analysis and Results of 2017 Stocks
+
+**Analysis**
+
+1. On average, the total daily volume of stocks traded is 263,886,592, with the highest being SPWR and the lowest being DQ.
+
+2. Overall, 2017 was a positive year. All stocks but TERP had a positive return. The average return rate for all stocks are 67.3%
+
+**Results**
+
+DQ performed the best in this dataset. They had the highest return with 199.4% but the least total daily volume. 
 
 <img src="Resources/VBA_Challenge_2017.png" width="500">
 
-### Analysis of 2018
+## Analysis and Results of 2018 Stocks
 
-In the second analysis, we are comaping the outcome of play campaigns based on its goal. With Excel functions, I created a table and graph to showcase the number and percentage of campaign outcomes based on goal dollar amount ranges. 
+**Analysis**
+
+1. On average, the total daily volume of stocks traded is 275,503,183, with the highest being ENPH and the lowest being AY. 
+
+2. 2018 produced mostly negative results, with only ENPH and RUN stocks producing a positive return. The average return rate for all stocks are -8.5%
+
+**Results**
+
+DQ performed the worst in this dataset. They had the least return and the total daily volume is less than average. 
 
 <img src="Resources/VBA_Challenge_2018.png" width="500">
 
-### Challenges and Difficulties Encountered
+**Performance of Refactored Code**
 
-During this module, this was the first time I ever worked with GitHub and .md files. I never knew how to create a repository, upload files, as well as working with GitHub Desktop to clone and manage remote and local files. In addition, I have only used plain-text documents to read files, but have never created the file and formatted it. 
+After refactoring the code, 
 
-With the help of the classes, modules and online resources like YouTube and GitHub Docs, I was able to learn how to work off of GitHub Desktop and complete my report with images and format it.
+<img src="Resources/Original_Timestamp.png" width="500">
+<img src="Resources/Refactored_Timestamp.png" width="500">
 
-## Results
-
-**What are two conclusions you can draw about the Outcomes based on Launch Date?**
-
-1. Overall, there are more successful plays than those that have failed or been canceled. Of the 1369 total plays, 839 of the plays were successful. Therefore, if you have a kickstarter for a theater project, you will have a 61% chance of success. 
-
-2. The most successful months are May and June, where 65-67% of the kickstarters were successful. Whereas the least successful month is December, where 51% of the kickstarters failed or were canceled. As a result, if you want the most success, it would be best to have a kickstarter in May or June. 
-
-**What can you conclude about the Outcomes based on Goals?**
-
-1. Play kickstarters with goals that are less than $15,000 are most likely to be successful. After the $15,000 mark, the likelihood of failed kickstarters for plays increased. 
 
 **What are some limitations of this dataset?**
 
