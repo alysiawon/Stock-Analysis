@@ -43,18 +43,6 @@ DQ performed the worst in this dataset. They had the least return and the total 
 
 The timestamp is represented in the format hh:mm:ss.
 
-**Original Code**
-
-The <a href="Module/green_stocks.xlsm">original code</a> ran for 19:42:56 seconds for the year 2017.
-
-<img src="Resources/Original_Timestamp.png" width="500">
-
-**Refactored Code**
-
-The <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds for the year 2017.
-
-<img src="Resources/Refactored_Timestamp.png" width="500">
-
 ## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
@@ -64,6 +52,15 @@ The disadvantages to the refactored code is that it is extremely time consuming.
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
-In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. For example, the time to run the refactored code is 0 seconds, in comparison to the 19 hours. 
+In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. 
+
+For example, the <a href="Module/green_stocks.xlsm">original code</a> ran for 19:42:56 seconds for the year 2017.
+
+<img src="Resources/Original_Timestamp.png" width="200">
+
+
+Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds for the year 2017.
+
+<img src="Resources/Refactored_Timestamp.png" width="200">
 
 However, the cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts, many failures and error codes.
