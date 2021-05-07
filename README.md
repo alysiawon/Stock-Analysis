@@ -39,10 +39,6 @@ DQ performed the worst in this dataset. They had the least return and the total 
 
 <img src="Resources/VBA_Challenge_2018.png" width="300">
 
-### Performance of Refactored Code
-
-The timestamp is represented in the format hh:mm:ss.
-
 ## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
@@ -57,7 +53,6 @@ In relation to the original code, the pros of refactoring is that the code ran s
 For example, the <a href="Module/green_stocks.xlsm">original code</a> ran for 19:42:56 seconds for the year 2017.
 
 <img src="Resources/Original_Timestamp.png" width="200">
-
 
 Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds for the year 2017.
 
