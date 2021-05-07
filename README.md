@@ -58,9 +58,12 @@ The <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds fo
 ## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
-The advantages of refactoring the code was that the time required to run the code is significnatly decreased. The time to run the refactored code is 0 seconds, in comparison to the 19 hours. 
+The advantages of refactoring the code is that it is easier to understand, less complex and easier to maintain.
 
-The disadvantages to the refactored code is 
+The disadvantages to the refactored code is that it is extremely time consuming. 
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
+In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. For example, the time to run the refactored code is 0 seconds, in comparison to the 19 hours. 
+
+However, the cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts, many failures and error codes.
