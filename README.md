@@ -66,12 +66,14 @@ Therefore after refactoring the code, the execution time was significantly faste
 ## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
-The advantages of refactoring the code is that it is easier to understand, less complex and easier to maintain. For example, in our refactored code, we didn't need to utilize a nested loop and we only needed 1 variable (i). This allowed our code to run a lot faster and produce the same results. 
+The advantages of refactoring the code is that it is easier to understand, less complex and easier to maintain. It helps us find bugs and helps in executing the program faster. 
 
-The disadvantages to the refactored code is that it is extremely time consuming and could cost a lot of money. 
+The disadvantages to the refactored code is that it is extremely time consuming and could cost a lot of money. For bigger scaled projects, the developer may not know how long it will take to write the code or how much it could cost, which can cause delays in a business. 
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
-In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. It is also a lot easier to understand and read.
+In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. It is also a lot easier to understand and read. For example, in our refactored code, we didn't need to utilize a nested loop and we only needed 1 variable (i). This allowed our code to run a lot faster and produce the same results. 
 
-The cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts and many failures and error codes.
+Another benefit of refactoring the code is that it forced me to think about different ways to implement the code that I did not think of originally. 
+
+The cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts and many failures and error codes. 
