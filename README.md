@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this analysis is to compare the total daily volume and yearly return for various green energy stocks. This analysis will provide insight on how the various green energy stocks compared to each other, and specifically DAQO New Energy Corp (DQ) in 2017 and 2018.
+The purpose of this analysis is to compare the total daily volume and the yearly return for various green energy stocks in 2017 and 2018. This analysis will compare how the different green energy stocks performed to each other and specifically how DAQO New Energy Corp (DQ) achieved in relation to the others.
 
 ## Analysis and Challenges
 
@@ -15,7 +15,7 @@ The data preparation includes refactoring the original VBA script by reorganizin
 
 **Analysis**
 
-1. On average, the total daily volume of stocks traded is 263,886,592, with the highest being SPWR and the lowest being DQ.
+1. On average, the total daily volume of stocks traded in 2017 is 263,886,592, with the highest being SPWR and the lowest being DQ.
 
 2. Overall, 2017 was a positive year. All stocks but TERP had a positive return. The average return rate for all stocks are 67.3%
 
@@ -29,7 +29,7 @@ DQ performed the best in this dataset. They had the highest return with 199.4% b
 
 **Analysis**
 
-1. On average, the total daily volume of stocks traded is 275,503,183, with the highest being ENPH and the lowest being AY. 
+1. On average, the total daily volume of stocks traded in 2018 is 275,503,183, with the highest being ENPH and the lowest being AY. 
 
 2. 2018 produced mostly negative results, with only ENPH and RUN stocks producing a positive return. The average return rate for all stocks are -8.5%
 
@@ -39,23 +39,39 @@ DQ performed the worst in this dataset. They had the least return and the total 
 
 <img src="Resources/VBA_Challenge_2018.png" width="300">
 
+### Execution Times
+
+**Analysis**
+
+The execution times are calculated based on how long the code took to ran in seconds. 
+
+The <a href="Module/green_stocks.xlsm">original code</a> in 2017 ran in -45,980.65 seconds and in 2018 ran in -46,002.12 seconds. 
+
+<img src="Module/Green_Stocks_2017.png" width="300">
+
+<img src="Module/Green_Stocks_2018.png" width="300">
+
+Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> in 2017 ran in 0.12 seconds and in 2018 ran in 0.11 seconds. (Refer above for the execution times for the refactoed code.)
+
+**Results**
+
+Firstly, the results of the execution time for the original code is negative. This is because the time is stored in microseconds in a 32-bit signed integer. This means that when converting this time, a -45,000 seconds code would run in approximately 3 hours. 
+
+Therefore after refactoring the code, the execution time was significantly faster. The evidence that the code ran faster is the following: 
+
+1. The refactored code ran in 0.11 to 0.12 seconds compared to approximately 3 hours.
+
+2. Both codes had the same formula for analyzing the executed time, but the refactored code is in a readable format. Whereas the original code was in an unreadble microseconds integer format that we had to convert to an approximate timeframe.
+
 ## Summary
 **What are the advantages or disadvantages of refactoring code?**
 
-The advantages of refactoring the code is that it is easier to understand, less complex and easier to maintain.
+The advantages of refactoring the code is that it is easier to understand, less complex and easier to maintain. For example, in our refactored code, we didn't need to utilize a nested loop and we only needed 1 variable (i). This allowed our code to run a lot faster and produce the same results. 
 
-The disadvantages to the refactored code is that it is extremely time consuming. 
+The disadvantages to the refactored code is that it is extremely time consuming and could cost a lot of money. 
 
 **How do these pros and cons apply to refactoring the original VBA script?**
 
-In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. 
+In relation to the original code, the pros of refactoring is that the code ran significantly more efficient. It is also a lot easier to understand and read.
 
-For example, the <a href="Module/green_stocks.xlsm">original code</a> ran for 19:42:56 seconds for the year 2017.
-
-<img src="Resources/Original_Timestamp.png" width="200">
-
-Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> ran for 00:00:00 seconds for the year 2017.
-
-<img src="Resources/Refactored_Timestamp.png" width="200">
-
-However, the cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts, many failures and error codes.
+The cons are that it took a lot of time rewriting the code which ultimately resulted in the success of the final product, however, required countless attempts and many failures and error codes.
