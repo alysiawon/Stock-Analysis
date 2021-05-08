@@ -51,7 +51,8 @@ The <a href="Module/green_stocks.xlsm">original code</a> in 2017 ran in -45,980.
 
 <img src="Module/Green_Stocks_2018.png" width="600">
 
-Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> in 2017 ran in 0.12 seconds and in 2018 ran in 0.11 seconds. (Refer above for the execution times for the refactoed code.)
+Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> in 2017 ran in 0.12 seconds and in 2018 ran in 0.11 seconds. 
+(Refer above for the execution times for the refactoed code.)
 
 **Results**
 
