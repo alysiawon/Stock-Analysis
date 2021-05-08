@@ -23,7 +23,7 @@ The data preparation includes refactoring the original VBA script by reorganizin
 
 DQ performed the best in this dataset. They had the highest return with 199.4% but the least total daily volume. 
 
-<img src="Resources/VBA_Challenge_2017.png" width="400">
+<img src="Resources/VBA_Challenge_2017.png" width="500">
 
 ### Analysis and Results of 2018 Stocks
 
@@ -37,7 +37,7 @@ DQ performed the best in this dataset. They had the highest return with 199.4% b
 
 DQ performed the worst in this dataset. They had the least return and the total daily volume is less than average. 
 
-<img src="Resources/VBA_Challenge_2018.png" width="400">
+<img src="Resources/VBA_Challenge_2018.png" width="500">
 
 ### Execution Times
 
@@ -47,9 +47,9 @@ The execution times are calculated based on how long the code took to ran in sec
 
 The <a href="Module/green_stocks.xlsm">original code</a> in 2017 ran in -45,980.65 seconds and in 2018 ran in -46,002.12 seconds. 
 
-<img src="Module/Green_Stocks_2017.png" width="400">
+<img src="Module/Green_Stocks_2017.png" width="500">
 
-<img src="Module/Green_Stocks_2018.png" width="400">
+<img src="Module/Green_Stocks_2018.png" width="500">
 
 Whereas the <a href="VBA_Challenge.xlsm">refactored code</a> in 2017 ran in 0.12 seconds and in 2018 ran in 0.11 seconds. (Refer above for the execution times for the refactoed code.)
 
